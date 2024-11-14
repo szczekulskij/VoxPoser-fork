@@ -1,3 +1,7 @@
+import os
+os.environ['COPPELIASIM_ROOT'] = '/home/jan/CoppeliaSim'
+
+
 import openai
 from arguments import get_config
 from interfaces import setup_LMP
